@@ -14,8 +14,7 @@ function App() {
       <CourseHero />
       <CourseDetails />
       <CourseSyllabus />
-      <ValueProposition />
-                
+      <ValueProposition />    
       <Footer />
     </main>
     
