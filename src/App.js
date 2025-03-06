@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import About from './About';
 // import { Flutter } from './AllCourses/Flutter';
-import Courses from './Courses';
 function App() {
   return (
     
@@ -10,7 +10,7 @@ function App() {
       <Navbar/>
       
       {/* <Flutter /> */}
-      <Courses />
+      <About />
       
       <Footer />
     </main>
