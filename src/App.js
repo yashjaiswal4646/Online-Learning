@@ -3,14 +3,16 @@ import { BrowserRouter } from "react-router-dom";
 
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Hacking } from './AllCourses/Hacking';
+import { WebMaster } from './AllCourses/WebMaster';
 function App() {
   return (
     <BrowserRouter> 
      <main className="flex flex-col pb-16 overflow-hidden bg-black">
           <Navbar/>
           
-          <Hacking />
+          <WebMaster />
+          
+          
           
           
           

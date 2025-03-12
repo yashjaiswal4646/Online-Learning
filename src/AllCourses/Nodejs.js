@@ -1,4 +1,6 @@
 import React from "react";
+import nodejs from "../Images/Group 32.png"
+import roadmap from "../Images/Group 67.png"
 
 export const Nodejs = () => {
   return (
@@ -43,7 +45,7 @@ export const Nodejs = () => {
             <article className="w-full px-px pt-px pb-12 mx-auto border border-solid rounded-xl border-fuchsia-700 bg-stone-950">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/37779ffe41bef5a47cb739607ae01f98593c5a60b446811148247ce8bf1b8b4b?placeholderIfAbsent=true&apiKey=6174043aed6e4993a0e569f439eb050d"
+                src={nodejs}
                 alt="Course preview"
                 className="object-contain w-full rounded-md aspect-[1.89]"
               />
@@ -103,7 +105,7 @@ export const Nodejs = () => {
         </h3>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/313ec768909aa90f407ef9aa2b864ff4e29d6dc3b62b310edd7e2e7b1d10edf6"
+          src={roadmap}
           alt="Course curriculum overview"
           className="object-contain mt-14 w-full rounded-none aspect-[10.99] max-w-[1216px]"
         />

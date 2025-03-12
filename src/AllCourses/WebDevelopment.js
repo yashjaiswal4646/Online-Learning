@@ -1,4 +1,6 @@
 import React from "react";
+import Webdevelopment from "../Images/Group 30.png";
+import roadmap from "../Images/Group 67.png";
 
 export const WebDevelopment = () => {
   return (
@@ -46,7 +48,7 @@ export const WebDevelopment = () => {
             <article className="w-full px-px pt-px pb-12 mx-auto border border-solid rounded-xl border-fuchsia-700 bg-stone-950">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/8aad2c0261686c8f69b0f3b51eb078b74e085d9f72654a57c5ec647be7098fa6?placeholderIfAbsent=true&apiKey=6174043aed6e4993a0e569f439eb050d"
+                src={Webdevelopment}
                 alt="Course preview"
                 className="object-contain w-full rounded-md aspect-[1.89]"
               />
@@ -106,7 +108,7 @@ export const WebDevelopment = () => {
         </h3>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/313ec768909aa90f407ef9aa2b864ff4e29d6dc3b62b310edd7e2e7b1d10edf6"
+          src={roadmap}
           alt="Course curriculum overview"
           className="object-contain mt-14 w-full rounded-none aspect-[10.99] max-w-[1216px]"
         />
