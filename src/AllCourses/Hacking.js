@@ -1,4 +1,6 @@
 import React from "react";
+import imghacking from "../Images/Group 34.png"
+import roadmap from "../Images/Group 107.png"
 
 export const Hacking = () => {
   return (
@@ -36,7 +38,7 @@ export const Hacking = () => {
             <article className="w-full px-px pt-px pb-12 mx-auto border border-solid rounded-xl border-fuchsia-700 bg-stone-950">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6032fd3cd6b48b8fc2c4189c41d3fffcd4477d43fb4e86f4465f631ffce6a07"
+                src={imghacking}
                 alt="Course preview"
                 className="object-contain w-full rounded-md aspect-[1.89]"
               />
@@ -96,7 +98,7 @@ export const Hacking = () => {
         </h3>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/144ec2471d96ecfc18fe1c09a22a61e5d46f9d5f25cb90e2421fa00184443ceb"
+          src={roadmap}
           alt="Course curriculum overview"
           className="object-contain mt-14 w-full rounded-none aspect-[10.99] max-w-[1216px]"
         />
