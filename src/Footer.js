@@ -1,3 +1,10 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import fb from "./Images/communication 1.png";
+import insta from "./Images/social 1.png";
+import linkdin from "./Images/linkedin 1.png";
+import youtube from "./Images/youtube 1.png";
+
 const Footer = () => {
   return (
     <footer className="text-white mt-14">
@@ -7,22 +14,22 @@ const Footer = () => {
         {/* Social Media Icons (Left Side) */}
         <div className="flex my-auto gap-7">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/2474a4156c29731868e21a5ec3cbade4d59e1933b8b114542b306a4b5f1c1ae6"
+            src={fb}
             alt="Social Icon 1"
             className="w-10"
           />
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/021bf6574028dc9196ce414f60de8f883ab55f37f16fc32b28133ccbc44aa13c"
+            src={insta}
             alt="Social Icon 2"
             className="w-10"
           />
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1fcf076a8d4bcccdabcbb2499e7c4033fa2f834f7074047904b2d6c1f412f376"
+            src={linkdin}
             alt="Social Icon 3"
             className="w-10"
           />
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c745b447df4379daa2fd3aba12a5cbf51e02527bb0e815639ab3ab16d460d80e"
+            src={youtube}
             alt="Social Icon 4"
             className="w-10"
           />
@@ -38,19 +45,19 @@ const Footer = () => {
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Docs</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Docs</Link>
                   </li>
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Privacy Policy</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Privacy Policy</Link>
                   </li>
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Terms of Service</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Terms of Service</Link>
                   </li>
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Pricing Policy</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Pricing Policy</Link>
                   </li>
                 </ul>
               </div>
@@ -61,15 +68,15 @@ const Footer = () => {
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Courses</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Courses</Link>
                   </li>
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Cohort</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Cohort</Link>
                   </li>
                   <li className="flex items-center">
                     <span className="w-2.5 h-2.5 rounded-full bg-zinc-300 mr-3"></span>
-                    <a href="#" className="hover:text-fuchsia-500">Coding Hero</a>
+                    <Link to="#" className="hover:text-fuchsia-500">Coding Hero</Link>
                   </li>
                 </ul>
               </div>

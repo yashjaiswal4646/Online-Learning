@@ -1,4 +1,6 @@
 import React from "react";
+import imgflutter from "../Images/Group 35.png";
+import roadmap from "../Images/Group 109.png"
 
 export const Flutter = () => {
   return (
@@ -31,7 +33,7 @@ export const Flutter = () => {
             <article className="w-full px-px pt-px pb-12 mx-auto border border-solid rounded-xl border-fuchsia-700 bg-stone-950">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c3f57830f517dec7183f6f154dff0f721409441908d0fd789145d4f716c1d79"
+                src={imgflutter}
                 alt="Course preview"
                 className="object-contain w-full rounded-md aspect-[1.89]"
               />
@@ -91,7 +93,7 @@ export const Flutter = () => {
         </h3>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e1e618bf7f8101ccd4f8266addde0c1b889e3ea16c1514719e5e7520a04755b"
+          src={roadmap}
           alt="Course curriculum overview"
           className="object-contain mt-14 w-full rounded-none aspect-[10.99] max-w-[1216px]"
         />

@@ -1,4 +1,8 @@
 import React from 'react';
+import rizupic from './Images/rizupic.jpg';
+import sunilpic from './Images/sunilpic.jpg';
+import yashpic from './Images/yashpic.jpg';
+import team from './Images/team.jpg';
 
 const LeaderCard = ({ image, name, role }) => {
     return (
@@ -56,7 +60,7 @@ const About = ({ image, name, role }) => {
           People who makes us a team
         </h2>
         <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e3618939632f93eeb65565587e0f3c45e5750ec6154f23ea215ec45ef64018a?placeholderIfAbsent=true&apiKey=6174043aed6e4993a0e569f439eb050d"
+          src={team}
           alt="Team"
           className="object-contain mt-28 w-full aspect-[1.5] max-w-[895px] ml-16 max-md:mt-10 max-md:max-w-full"
         />
@@ -70,12 +74,12 @@ const About = ({ image, name, role }) => {
                 <hr className="shrink-0 self-start mt-5 ml-3 mb-6  max-w-full h-px border border-white border-solid w-[555px]" />
                 <div className="flex flex-col self-stretch w-full px-3 mt-10 gap-28">
                   <LeaderCard
-                    image="https://cdn.builder.io/api/v1/image/assets/TEMP/75cd1b7457449251286a559899c133409c580f1b65c7bf642dfdf7fe65212136?placeholderIfAbsent=true&apiKey=6174043aed6e4993a0e569f439eb050d"
+                    image={rizupic}
                     name="Rizwan Ali"
                     role="FOUNDER"
                   />
                   <LeaderCard
-                    image="https://cdn.builder.io/api/v1/image/assets/TEMP/aece956ab47882c8d1443be57b0c60a23efb032f66690be78fcc83617cdeeea5?placeholderIfAbsent=true&apiKey=6174043aed6e4993a0e569f439eb050d"
+                    image={sunilpic}
                     name="Sunil Kumar"
                     role="FOUNDER"
                     
@@ -86,7 +90,7 @@ const About = ({ image, name, role }) => {
             <div className="w-6/12 ml-5 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col w-full text-xl text-white mt-60 max-md:mt-10">
                 <LeaderCard
-                  image="https://cdn.builder.io/api/v1/image/assets/TEMP/7b059bfe616dc7129964dc09593c695f3d59959c6ecdf3b6d7f698132bdcadd1?placeholderIfAbsent=true&apiKey=6174043aed6e4993a0e569f439eb050d"
+                  image={yashpic}
                   name="Yash Jaiswal"
                   role="FOUNDER"
                 />

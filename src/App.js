@@ -1,19 +1,21 @@
 import React from 'react';
+import { BrowserRouter } from "react-router-dom";
+
 import Navbar from './Navbar';
 import Footer from './Footer';
-import About from './About';
-// import { Flutter } from './AllCourses/Flutter';
+ import { Flutter } from './AllCourses/Flutter';
 function App() {
   return (
-    
-      <main className="flex flex-col pb-16 overflow-hidden bg-stone-950">
-      <Navbar/>
-      
-      {/* <Flutter /> */}
-      <About />
-      
-      <Footer />
-    </main>
+    <BrowserRouter> 
+     <main className="flex flex-col pb-16 overflow-hidden bg-black">
+          <Navbar/>
+          
+          <Flutter />
+          
+          
+          <Footer />
+     </main>
+    </BrowserRouter>
     
   );
 }
